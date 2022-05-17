@@ -1,0 +1,150 @@
+:root {
+  --color-primario: #2a3849;
+  --color-secundario: #db282c;
+  --color-terciario: #eecf1e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  color: var(--color-primario);
+  padding: 50px;
+  position: relative;
+}
+.botones-paginas {
+  position: absolute;
+  bottom: -25px;
+  margin-right: auto;
+  margin-left: auto;
+  left: 0;
+  right: 0;
+}
+
+.botones-paginas > button {
+  margin-right: 15px;
+}
+
+body {
+  background: var(--color-primario);
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Exo 2", sans-serif;
+}
+
+.ocultar {
+  display: none;
+}
+
+.libre {
+  background: rgb(33, 169, 33) !important;
+  color: #ffffffd4;
+  font-style: italic;
+}
+
+.ocupada {
+  background: rgb(196, 41, 41) !important;
+  color: #000000d4;
+  font-weight: bold;
+  cursor: default !important;
+}
+
+.turnero {
+  color: white;
+  padding: 30px 50px;
+  text-align: center;
+}
+
+.diaDisp {
+  cursor: pointer;
+}
+
+.botonGenerar {
+  display: flex;
+  justify-content: end;
+}
+
+.calendario {
+  margin-top: 50px;
+}
+
+.seleccionado {
+  border: 2px solid var(--color-primario);
+  background-color: darkgray !important;
+}
+
+.diaTurno {
+  cursor: pointer !important;
+}
+
+.formulario {
+  background: white;
+  color: var(--color-primario);
+  margin: 50px 0px;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.btn-secundario {
+  color: var(--color-secundario);
+  background-color: #ffffff;
+  border-color: var(--color-secundario);
+  padding: 1em 0.7em;
+}
+
+.btn-secundario:hover {
+  color: white;
+  background-color: var(--color-terciario);
+}
+
+.btn-primario {
+  color: white;
+  background-color: var(--color-secundario);
+  border-color: var(--color-secundario);
+  padding: 1em 0.7em;
+}
+
+.btn-primario:hover {
+  color: white;
+  background-color: var(--color-terciario);
+  border-color: var(--color-terciario);
+}
+
+.btn-terciario {
+  color: var(--color-primario);
+  background-color: var(--color-terciario);
+  border-color: var(--color-terciario);
+}
+
+.btn-terciario:hover {
+  color: #ffffff;
+  background-color: var(--color-primario);
+  border-color: var(--color-primario);
+}
+
+.active {
+  background-color: var(--color-secundario);
+  color: white;
+}
+
+.activo {
+  background-color: var(--color-terciario);
+  color: white;
+  border-color: var(--color-terciario);
+}
+
+.tabla {
+  color: white;
+  border-color: #131e2c;
+  background-color: #131e2c;
+}
+
+#loadingTurnero {
+  margin-top: 50px;
+}
+
+#loadingCalendario {
+  margin-top: 30px;
+}
