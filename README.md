@@ -27,3 +27,10 @@ Para el trabajo con APIs diseñé una fake api en [mockapi.io](https://mockapi.i
 2. En la pestaña "Sacar Turno", tenemos disponibles los botones de selección de Servicio y Cilindrada. Tambien, un boton "Ver Calendario", el mismo despliega el calendario donde se seleccionan el dia y horario para el turno.
 3. Una vez seleccionados el servicio, la cilindrada, el dia y la hora del turno, al presionar el boton "Generar turno" se guarda el mismo y se muestra la informacion.
 4. En la pestaña "Ver Turnero" se muestra el calendario con los dias y horarios ocupados, al hacer click en alguno de ellos, se muestra la info de los t
+
+## Demos del Funcionamiento del Turnero
+### Demo de la página inicial "Sacar Turnos"
+![DemoInicial](./src/DemoInicial.gif)
+
+### Demo de la página "Ver Turnero"
+![DemoTurnero](./src/DemoTurnero.gif)
